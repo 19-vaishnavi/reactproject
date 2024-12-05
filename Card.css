@@ -1,0 +1,40 @@
+.card-container{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: space-around;
+    }
+
+    .card{
+    background-color: black;
+    color: white;
+    height: 310px;
+    width:350px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25px;
+    }
+
+    .card-header{
+    text-decoration-line: underline;
+    text-underline-offset: 5px;
+    display: flex;
+    justify-content: space-between;
+    }
+
+    .header .header-image
+    {
+        width: 75px;
+        height:60px;
+        
+
+    }
+    .header
+    .card-body{
+    padding-top: 10px;
+    }
+    
+    
